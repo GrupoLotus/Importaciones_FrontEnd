@@ -1,0 +1,51 @@
+/*Ajuste el contenido al content*/
+.content-wrapper {
+    height: calc(100vh - 64px);
+    /* Ajusta este valor según la altura de tu NavBar */
+    overflow: auto;
+    background-color: rgb(1, 29, 56);
+}
+
+/*Tamaño de MaterialReactTable*/
+.container-table {
+    height: calc(100vh - 180px);
+    width: 99%;
+    padding-left: 1%;
+}
+
+/*Formato a los titulos*/
+.content-wrapper :where(h3, h4) {
+    color: white;
+    font-family: "Lora", sans-serif;
+    font-weight: bold;
+    /*filter: drop-shadow(2px 2px 10px gray);*/
+    text-shadow: 2px 2px 5px gray;
+}
+
+/*Imagen de fondo del Home*/
+.image-menu {
+    height: calc(100vh - 64px);
+    width: 100%;
+    overflow: auto;
+    /*object-fit: cover*/
+}
+
+/*Contorno a la imagen del NavBar*/
+.img-NavBar {
+    /*box-shadow: 1px 1px 20px white;*/
+    filter: drop-shadow(2px 2px 20px white);
+
+}
+
+/*Formato a los titulos de los headers*/
+.modal-header {
+    color: white !important;
+    font-family: "Lora", sans-serif;
+    background: rgb(1, 45, 87);
+    text-shadow: 2px 2px 5px darkred;
+}
+
+
+/*style={{ maxWidth: "98%", height: "90%" }}
+img-NavBar
+*/
